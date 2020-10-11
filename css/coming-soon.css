@@ -40,7 +40,7 @@ video {
 
 @media (pointer: coarse) and (hover: none) {
   body {
-    background: url("../img/bg-mobile-fallback.jpg") #002E66 no-repeat center center scroll;
+    background: url("../img/bg-mobile-fallback.jpg") #137A63 no-repeat center center scroll;
     background-size: cover;
   }
   body video {
@@ -54,9 +54,19 @@ video {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #cd9557;
+  background-color: #C7CEEA;
   opacity: 0.7;
   z-index: 1;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #282828;
 }
 
 .masthead {
@@ -75,7 +85,7 @@ video {
   width: 100%;
   min-height: 35rem;
   height: 100%;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(19, 122, 99, 0.7);
   transform: skewY(4deg);
   transform-origin: bottom right;
 }
@@ -152,7 +162,7 @@ video {
 .social-icons ul > li > a {
   display: block;
   color: white;
-  background-color: rgba(0, 46, 102, 0.8);
+  background-color: rgba(19, 122, 99, 0.8);
   border-radius: 100%;
   font-size: 2rem;
   line-height: 4rem;
@@ -189,18 +199,18 @@ video {
     width: 4rem;
   }
   .social-icons ul > li > a:hover {
-    background-color: #002E66;
+    background-color: #137A63;
   }
 }
 
 .btn-secondary {
-  background-color: #cd9557;
-  border-color: #cd9557;
+  background-color: #C7CEEA;
+  border-color: #C7CEEA;
 }
 
 .btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
-  background-color: #ba7c37 !important;
-  border-color: #ba7c37 !important;
+  background-color: #a2aedc !important;
+  border-color: #a2aedc !important;
 }
 
 .input {
